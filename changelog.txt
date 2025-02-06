@@ -1,9 +1,10 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.2.2
+Version: 0.3.0
 Date: 2025-02-06
   Changes:
+    - Locked Moshine behind Vulcanus/coal liquefaction
     - Removed carbon from mixed ore
-    - Raised drop of coal from mixed ore
+    - Raised drop of coal from mixed ore (3->11%)
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 2025-02-06

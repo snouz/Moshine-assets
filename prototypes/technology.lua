@@ -16,16 +16,17 @@ data:extend({
         use_icon_overlay_constant = true
       }
     },
-    prerequisites = {"space-platform-thruster"},
+    prerequisites = {"coal-liquefaction"},
     unit =
     {
-      count = 1000,
+      count = 750,
       ingredients =
       {
         {"automation-science-pack", 1},
         {"logistic-science-pack", 1},
         {"chemical-science-pack", 1},
-        {"space-science-pack", 1}
+        {"space-science-pack", 1},
+        {"metallurgic-science-pack", 1}
       },
       time = 60
     }
