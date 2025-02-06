@@ -1,8 +1,9 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.1
+Version: 0.1.2
 Date: 2025-02-06
   Bugfixes:
     - Fixed steam geyser and copper source colliding with pumpjacks (!)
+    - Removed raw-data auto-barrel
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2025-02-05

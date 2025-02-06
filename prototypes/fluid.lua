@@ -7,7 +7,8 @@ data:extend({
   base_color = {1, 1, 1},
   flow_color = {1, 1, 1},
   icon = "__Moshine-assets__/graphics/icons/raw-data.png",
-  order = "a[fluid]-a[water]-a[water]"
+  order = "a[fluid]-a[water]-a[water]",
+  auto_barrel = false,
 },
 
 })
