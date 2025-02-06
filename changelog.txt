@@ -3,8 +3,14 @@ Version: 0.3.0
 Date: 2025-02-06
   Changes:
     - Locked Moshine behind Vulcanus/coal liquefaction
-    - Removed carbon from mixed ore
+    - Removed carbon and stone from mixed ore
+    - Added a recipe to make concrete from molten iron, sand, and water
     - Raised drop of coal from mixed ore (3->11%)
+    - Reduced yield of mixed ores
+    - Made sand 2kg (to align with Maraxsis)
+    - Made rocks drop calcite instead of copper (now you should be able to get stranded)
+  Graphics
+    - Improved dust tile transitions
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 2025-02-06

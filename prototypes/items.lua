@@ -29,7 +29,7 @@ data:extend({
     },
     stack_size = 100,
     default_import_location = "moshine",
-    weight = 10*kg,
+    weight = 2*kg,
   },
   {
     type = "item",

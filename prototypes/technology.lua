@@ -14,7 +14,11 @@ data:extend({
         type = "unlock-space-location",
         space_location = "moshine",
         use_icon_overlay_constant = true
-      }
+      },
+      {
+        type = "unlock-recipe",
+        recipe = "concrete-from-molten-iron-and-sand"
+      },
     },
     prerequisites = {"coal-liquefaction"},
     unit =

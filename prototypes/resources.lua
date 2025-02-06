@@ -236,12 +236,12 @@ data:extend({
           amount = 1,
           probability = 2 /100,
         },
-        {
+        --[[{
           type = "item",
           name = "stone",
           amount = 1,
           probability = 5 /100,
-        },
+        },]]
         --[[{
           type = "item",
           name = "calcite",

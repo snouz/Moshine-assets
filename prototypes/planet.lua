@@ -129,11 +129,11 @@ planet_map_gen.moshine = function()
     autoplace_controls =
     {
       --["molten_copper_geyser"] = {richness = 1500000000},
-      ["steam_geyser"] = {richness = 1500000000},
-      ["fulgoran_data_source"] = { frequency = 4, size = 0.1, richness = 1500000000 },
+      ["steam_geyser"] = {richness = 150},
+      ["fulgoran_data_source"] = { frequency = 4, size = 0.1, richness = 150 },
       ["moshine_islands"] = {},
       ["fulgora_cliff"] = {},
-      ["multi_ore"] = {richness = 1500000000},-- frequency = 600000000, size = 10000000, richness = 150500000 },
+      ["multi_ore"] = {richness = 1500},-- frequency = 600000000, size = 10000000, richness = 150500000 },
     },
     autoplace_settings =
     {

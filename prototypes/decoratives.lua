@@ -98,9 +98,9 @@ data:extend({
       mining_time = 3,
       results =
       {
-        {type = "item", name = "stone", amount_min = 6, amount_max = 18},
-        {type = "item", name = "iron-ore", amount_min = 9, amount_max = 27},
-        {type = "item", name = "copper-ore", amount_min = 6, amount_max = 18},
+        {type = "item", name = "stone", amount_min = 3, amount_max = 10},
+        {type = "item", name = "iron-ore", amount_min = 5, amount_max = 20},
+        {type = "item", name = "calcite", amount_min = 3, amount_max = 15},
       },
     },
     map_color = {129, 105, 78},
