@@ -73,14 +73,14 @@ data:extend({
     category = "resource"
   },
 
-  {
+  --[[{
     type = "autoplace-control",
     name = "molten_copper_geyser",
     localised_name = {"", "[entity=molten-copper-geyser] ", {"entity-name.molten-copper-geyser"}},
     richness = true,
     order = "m-b",
     category = "resource"
-  },
+  },]]--
 
   {
     type = "autoplace-control",
@@ -311,7 +311,7 @@ data:extend({
     mining_visualisation_tint = {r = 130, g = 190, b = 170, a = 255},
     map_grid = true,
   },
-
+--[[
   {
     type = "resource",
     name = "molten-copper-geyser",
@@ -434,7 +434,7 @@ data:extend({
     map_color = {r = 250, g = 126, b = 58, a = 255},
     map_grid = false
   },
-
+]]--
 
   {
     type = "resource",

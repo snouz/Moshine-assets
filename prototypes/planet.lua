@@ -105,8 +105,8 @@ planet_map_gen.moshine = function()
       aux = "fulgora_aux",
       cliffiness = "fulgora_cliffiness",
       cliff_elevation = "cliff_elevation_from_elevation",
-      ["entity:molten-copper-geyser:probability"] = "moshine_molten_copper_geyser_probability",
-      ["entity:molten-copper-geyser:richness"] = "moshine_molten_copper_geyser_richness",
+      --["entity:molten-copper-geyser:probability"] = "moshine_molten_copper_geyser_probability",
+      --["entity:molten-copper-geyser:richness"] = "moshine_molten_copper_geyser_richness",
       ["entity:steam-geyser:probability"] = "moshine_steam_geyser_probability",
       ["entity:steam-geyser:richness"] = "moshine_steam_geyser_richness",
       ["entity:multi-ore:probability"] = "moshine_multi_ore_probability",
@@ -128,7 +128,7 @@ planet_map_gen.moshine = function()
     },
     autoplace_controls =
     {
-      ["molten_copper_geyser"] = {richness = 1500000000},
+      --["molten_copper_geyser"] = {richness = 1500000000},
       ["steam_geyser"] = {richness = 1500000000},
       ["fulgoran_data_source"] = { frequency = 4, size = 0.1, richness = 1500000000 },
       ["moshine_islands"] = {},
