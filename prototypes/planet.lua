@@ -224,7 +224,7 @@ planet_map_gen.moshine = function()
         settings =
         {
           --["molten-iron-geyser"] = {},
-          ["molten-copper-geyser"] = {},
+          --["molten-copper-geyser"] = {},
           ["steam-geyser"] = {},
           ["fulgoran-data-source"] = {},
           --["neodymium-ore"] = {},

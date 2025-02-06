@@ -1,9 +1,12 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.2
+Version: 0.2.0
 Date: 2025-02-06
+  Changes:
+    - Removed molten copper and added copper to mixed ore
   Bugfixes:
     - Fixed steam geyser and copper source colliding with pumpjacks (!)
     - Removed raw-data auto-barrel
+    - Made mixed ore more visible
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
 Date: 2025-02-05

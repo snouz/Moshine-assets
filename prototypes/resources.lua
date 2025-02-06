@@ -230,12 +230,12 @@ data:extend({
           amount = 1,
           probability = 5 /100,
         },]]
-        --[[{
+        {
           type = "item",
           name = "copper-ore",
           amount = 1,
-          probability = 10 /100,
-        },]]
+          probability = 2 /100,
+        },
         {
           type = "item",
           name = "stone",
