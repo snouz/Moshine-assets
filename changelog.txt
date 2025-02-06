@@ -3,3 +3,4 @@ Version: 0.1.1
 Date: 2025-02-05
   Info:
     - Initial release (Moshine split into this mod and the rest)
+    - Optimized most images size with fgardt spritter
