@@ -212,17 +212,17 @@ data:extend({
           amount = 1,
           probability = 8 /100,
         },
-        {
+        --[[{
           type = "item",
           name = "carbon",
           amount = 1,
           probability = 2 /100,
-        },
+        },]]
         {
           type = "item",
           name = "coal",
           amount = 1,
-          probability = 3 /100,
+          probability = 11 /100,
         },
         --[[{
           type = "item",

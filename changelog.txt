@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.2.2
+Date: 2025-02-06
+  Changes:
+    - Removed carbon from mixed ore
+    - Raised drop of coal from mixed ore
+---------------------------------------------------------------------------------------------------
 Version: 0.2.1
 Date: 2025-02-06
   Bugfixes:
@@ -11,6 +17,7 @@ Date: 2025-02-06
   Bugfixes:
     - Fixed steam geyser and copper source colliding with pumpjacks (!)
     - Removed raw-data auto-barrel
+  Graphics
     - Made mixed ore more visible
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
