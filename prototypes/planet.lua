@@ -290,7 +290,6 @@ data:extend({
       ["solar-power"] = 4000,
       pressure = 700,
       gravity = 7,
-      temperature = 369,
     },
     asteroid_spawn_influence = 1,
     asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus, 0.9),
