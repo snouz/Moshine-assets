@@ -357,7 +357,7 @@ data:extend({
       },
       max_sounds_per_prototype = 3,
     },
-    collision_mask = {layers={is_object = true, is_lower_object = true, water_tile = true}},
+    --collision_mask = {layers={is_object = true, is_lower_object = true, water_tile = true}},
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     autoplace =
@@ -481,7 +481,7 @@ data:extend({
       },
       max_sounds_per_prototype = 3,
     },
-    collision_mask = {layers={is_object = true, is_lower_object = true, water_tile = true}},
+    --collision_mask = {layers={is_object = true, is_lower_object = true, water_tile = true}},
     collision_box = {{-1.4, -1.4}, {1.4, 1.4}},
     selection_box = {{-0.5, -0.5}, {0.5, 0.5}},
     autoplace =

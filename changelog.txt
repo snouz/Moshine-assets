@@ -1,5 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
+Date: 2025-02-06
+  Bugfixes:
+    - Fixed steam geyser and copper source colliding with pumpjacks (!)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.1
 Date: 2025-02-05
   Info:
     - Initial release (Moshine split into this mod and the rest)
