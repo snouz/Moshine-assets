@@ -461,9 +461,10 @@ data:extend({
         {
           type = "fluid",
           name = "steam",
+          temperature = 175,
           amount_min = 10,
           amount_max = 10,
-          probability = 1
+          probability = 1,
         }
       }
     },

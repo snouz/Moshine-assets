@@ -1,3 +1,10 @@
+Version: 0.3.1
+Date: 2025-02-07
+  Changes:
+    - Steam from steam geysers: 15 -> 175°C
+  Bugfixes:
+    - Compatibility with Factorio 2.0.28.
+    - Fixed potential crash with temperature not being set
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.0
 Date: 2025-02-06
@@ -9,7 +16,7 @@ Date: 2025-02-06
     - Reduced yield of mixed ores
     - Made sand 2kg (to align with Maraxsis)
     - Made rocks drop calcite instead of copper (now you should be able to get stranded)
-  Graphics
+  Graphics:
     - Improved dust tile transitions
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.1
