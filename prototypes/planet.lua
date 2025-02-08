@@ -375,12 +375,13 @@ data:extend({
       -- sun fully risen at 0.75
       day_night_cycle_color_lookup =
       {
-        {0.0, "__Moshine-assets__/graphics/terrain/moshine-1-day.png"},
+        {0.0,  "__Moshine-assets__/graphics/terrain/moshine-1-day.png"},
         {0.35, "__Moshine-assets__/graphics/terrain/moshine-4-partialday.png"},
         {0.40, "__Moshine-assets__/graphics/terrain/moshine-3-dusk.png"},
         {0.45, "__Moshine-assets__/graphics/terrain/moshine-2-night.png"},
-        {0.60, "__Moshine-assets__/graphics/terrain/moshine-2-night.png"},
-        {0.70, "__Moshine-assets__/graphics/terrain/moshine-4-partialday.png"},
+        {0.55, "__Moshine-assets__/graphics/terrain/moshine-2-night.png"},
+        {0.75, "__Moshine-assets__/graphics/terrain/moshine-4-partialday.png"},
+        {0.98, "__Moshine-assets__/graphics/terrain/moshine-1-day.png"},
       },
 
       terrain_tint_effect =

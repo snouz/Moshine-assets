@@ -1,3 +1,8 @@
+Version: 0.3.2
+Date: 2025-02-08
+  Graphics:
+    - Lowered luminosity a bit, except at noon
+---------------------------------------------------------------------------------------------------
 Version: 0.3.1
 Date: 2025-02-07
   Changes:
