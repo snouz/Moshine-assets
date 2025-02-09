@@ -294,7 +294,7 @@ data:extend({
       entity_to_sound_ratio = 0.1,
       average_pause_seconds = 3
     },
-    map_color = {r = 135, g = 51, b = 25},
+    map_color = {r = 86, g = 41, b = 51},
   },
 
 

@@ -1,6 +1,17 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.3.3
+Date: 2025-02-09
+  Changes:
+    - Made mixed ore non-infinite, and doesn't automatically appear at spawn
+  Graphics:
+    - Made Molten-iron lava much bluer and brighter to differenciate with normal one
+  Bugfixes:
+    - Made locale for solar flares surface condition (to restrict accumulators)
+---------------------------------------------------------------------------------------------------
 Version: 0.3.2
 Date: 2025-02-09
   Changes:
+    - Restricted accumulators on Moshine
     - Dramatically reduced the yield of mixed ore patches
     - 10x less neodymium dropped (drop 273 at once but very rarely)
     - Added a recipe for Petroleum (using sand, carbon, sulfur and steam)

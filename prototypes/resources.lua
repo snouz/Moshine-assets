@@ -180,9 +180,9 @@ data:extend({
     icon = "__Moshine-assets__/graphics/icons/multi-ore.png",
     flags = {"placeable-neutral"},
     order="a-b-c",
-    infinite = true,
-    minimum = 600000,
-    normal = 3000000,
+    infinite = false,
+    minimum = 6000,
+    normal = 30000,
     highlight = false,
     tree_removal_probability = 0.8,
     tree_removal_max_distance = 32 * 32,
@@ -259,8 +259,8 @@ data:extend({
     {
       control = "multi_ore",
       order = "b",
-      additional_richness = 220, -- this increases the total everywhere, so base_density needs to be decreased to compensate
-      has_starting_area_placement = true,
+      additional_richness = 22, -- this increases the total everywhere, so base_density needs to be decreased to compensate
+      --has_starting_area_placement = true,
       probability_expression = "(control:multi_ore:size > 0)\z
                                 * (1 - fulgora_starting_mask)\z
                                 * (min((fulgora_structure_cells < min(0.1 * frequency, 0.05 + 0.05 * frequency))\z

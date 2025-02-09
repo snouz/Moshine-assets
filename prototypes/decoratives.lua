@@ -117,6 +117,7 @@ data:extend({
       }
     },
     autoplace = {
+      control = "rocks",
       order = "r[landscape]-c[rock]-a[huge]",
       probability_expression = "vulcanus_rock_huge"
     },

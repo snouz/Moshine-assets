@@ -8,5 +8,5 @@ for _, entity in pairs(data.raw["accumulator"]) do
   if not entity.surface_conditions then
     entity.surface_conditions = {}
   end
-  table.insert(entity.surface_conditions, { property = "forbidden_on_moshine", min = 0, max = 0 })
+  table.insert(entity.surface_conditions, { property = "solar_flares", min = 0, max = 0 })
 end
