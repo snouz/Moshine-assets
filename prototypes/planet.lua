@@ -133,7 +133,7 @@ planet_map_gen.moshine = function()
       ["fulgoran_data_source"] = { frequency = 4, size = 0.1, richness = 150 },
       ["moshine_islands"] = {},
       ["fulgora_cliff"] = {},
-      ["multi_ore"] = {richness = 1500},-- frequency = 600000000, size = 10000000, richness = 150500000 },
+      ["multi_ore"] = {},-- frequency = 600000000, size = 10000000, richness = 150500000 },
     },
     autoplace_settings =
     {
@@ -257,6 +257,14 @@ local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-de
 
 
 data:extend({
+
+  {
+    type = "surface-property",
+    name = "forbidden_on_moshine",
+    default_value = 0,
+    hidden_in_factoriopedia = true,
+    hidden = true,
+  },
   {
     type = "planet",
     name = "moshine",
@@ -290,6 +298,7 @@ data:extend({
       ["solar-power"] = 4000,
       pressure = 700,
       gravity = 7,
+      forbidden_on_moshine = 1,
     },
     asteroid_spawn_influence = 1,
     asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus, 0.9),

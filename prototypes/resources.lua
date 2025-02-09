@@ -203,7 +203,7 @@ data:extend({
         {
           type = "item",
           name = "neodymium",
-          amount = 2730,
+          amount = 273,
           probability = 0.001 /100,
         },
         {
@@ -259,7 +259,7 @@ data:extend({
     {
       control = "multi_ore",
       order = "b",
-      additional_richness = 2200, -- this increases the total everywhere, so base_density needs to be decreased to compensate
+      additional_richness = 220, -- this increases the total everywhere, so base_density needs to be decreased to compensate
       has_starting_area_placement = true,
       probability_expression = "(control:multi_ore:size > 0)\z
                                 * (1 - fulgora_starting_mask)\z

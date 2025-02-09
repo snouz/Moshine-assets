@@ -19,6 +19,10 @@ data:extend({
         type = "unlock-recipe",
         recipe = "concrete-from-molten-iron-and-sand"
       },
+      {
+        type = "unlock-recipe",
+        recipe = "petroleum-from-sand-sulfur-steam-carbon"
+      },
     },
     prerequisites = {"coal-liquefaction"},
     unit =

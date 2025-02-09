@@ -19,4 +19,27 @@ data:extend({
     results = {{type = "item", name = "concrete", amount = 10}},
     allow_productivity = true
   },
+  {
+    type = "recipe",
+    name = "petroleum-from-sand-sulfur-steam-carbon",
+    category = "oil-processing",
+    icon = "__Moshine-assets__/graphics/icons/petroleum-from-sand-sulfur-steam-carbon.png",
+    subgroup = "moshine-processes",
+    order = "aac",
+    enabled = false,
+    ingredients =
+    {
+      {type = "fluid", name = "steam", amount = 50},
+      {type = "item", name = "sand", amount = 40},
+      {type = "item", name = "sulfur", amount = 10},
+      {type = "item", name = "carbon", amount = 5},
+    },
+    energy_required = 3,
+    results = {
+      {type = "fluid", name = "petroleum-gas", amount = 100},
+      {type = "item", name = "coal", amount = 2},
+    },
+    allow_decomposition = false,
+    allow_productivity = true
+  },
 })
