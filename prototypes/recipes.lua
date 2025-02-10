@@ -1,5 +1,4 @@
 data:extend({
-
   {
     type = "recipe",
     name = "concrete-from-molten-iron-and-sand",
@@ -15,8 +14,9 @@ data:extend({
       {type = "item", name = "sand", amount = 80},
     },
     energy_required = 10,
-    allow_decomposition = false,
     results = {{type = "item", name = "concrete", amount = 10}},
+    allow_decomposition = false,
+    auto_recycle = false,
     allow_productivity = true
   },
   {
@@ -36,10 +36,12 @@ data:extend({
     },
     energy_required = 3,
     results = {
-      {type = "fluid", name = "petroleum-gas", amount = 100},
-      {type = "item", name = "coal", amount = 2},
+      {type = "fluid", name = "petroleum-gas", amount = 100, show_details_in_recipe_tooltip = true},
+      {type = "item", name = "coal", amount = 2, show_details_in_recipe_tooltip = false},
     },
+    main_product = "petroleum-gas",
     allow_decomposition = false,
+    auto_recycle = false,
     allow_productivity = true
   },
 })
