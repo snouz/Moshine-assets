@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.4
+Date: 2025-02-09
+  Bugfixes:
+    - Fixed Moshine rock spawning on Nauvis
+---------------------------------------------------------------------------------------------------
 Version: 0.3.3
 Date: 2025-02-09
   Changes:
@@ -51,7 +56,7 @@ Date: 2025-02-06
   Bugfixes:
     - Fixed steam geyser and copper source colliding with pumpjacks (!)
     - Removed raw-data auto-barrel
-  Graphics
+  Graphics:
     - Made mixed ore more visible
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.1
