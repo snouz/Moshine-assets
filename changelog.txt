@@ -1,4 +1,14 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.6
+Date: 2025-02-19
+  Changes:
+    - Modified mixed-ores ratios (Neodymium*5, sand-, sulfur-, coal+, copper+)
+    - Petroleum custom recipe changed (coal required instead of carbon, and outputs carbon instad of coal)
+    - Prevented nuclear/fusion reactors from being built on the planet
+  Locale:
+    - Chinese translation by rlcyyg1108
+    - Russian translation by GafarovMaxim
+---------------------------------------------------------------------------------------------------
 Version: 0.3.5
 Date: 2025-02-10
   Bugfixes:

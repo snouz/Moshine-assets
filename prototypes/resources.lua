@@ -198,19 +198,19 @@ data:extend({
           type = "item",
           name = "sand",
           amount = 1,
-          probability = 16 /100,
+          probability = 13 /100,
         },
         {
           type = "item",
           name = "neodymium",
-          amount = 273,
-          probability = 0.001 /100,
+          amount = 522,
+          probability = 0.003 /100,
         },
         {
           type = "item",
           name = "sulfur",
           amount = 1,
-          probability = 8 /100,
+          probability = 6 /100,
         },
         --[[{
           type = "item",
@@ -222,7 +222,7 @@ data:extend({
           type = "item",
           name = "coal",
           amount = 1,
-          probability = 11 /100,
+          probability = 12 /100,
         },
         --[[{
           type = "item",
@@ -234,7 +234,7 @@ data:extend({
           type = "item",
           name = "copper-ore",
           amount = 1,
-          probability = 2 /100,
+          probability = 4 /100,
         },
         --[[{
           type = "item",
