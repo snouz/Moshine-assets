@@ -204,7 +204,7 @@ data:extend({
           type = "item",
           name = "neodymium",
           amount = 522,
-          probability = 0.003 /100,
+          probability = 0.006 /100,
         },
         {
           type = "item",
@@ -461,7 +461,7 @@ data:extend({
         {
           type = "fluid",
           name = "steam",
-          temperature = 175,
+          temperature = 500,
           amount_min = 10,
           amount_max = 10,
           probability = 1,

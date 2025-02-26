@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.7
+Date: 2025-02-
+  Changes:
+    - Raised ground steam temperature to 500°C to ease power production
+    - Doubled Neodymium probability
+---------------------------------------------------------------------------------------------------
 Version: 0.3.6
 Date: 2025-02-19
   Changes:
