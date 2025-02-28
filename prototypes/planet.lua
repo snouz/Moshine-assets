@@ -270,7 +270,7 @@ data:extend({
     name = "moshine",
     icon = "__Moshine-assets__/graphics/icons/moshine.png",
     starmap_icon = "__Moshine-assets__/graphics/icons/starmap-planet-moshine.png",
-    starmap_icon_size = 512,
+    starmap_icon_size = 2048,
     gravity_pull = 10,
     distance = 6,
     orientation = 0.05,

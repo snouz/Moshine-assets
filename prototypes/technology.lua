@@ -24,7 +24,7 @@ data:extend({
         recipe = "petroleum-from-sand-sulfur-steam-carbon"
       },
     },
-    prerequisites = {"coal-liquefaction"},
+    prerequisites = {"coal-liquefaction", "electromagnetic-plant"},
     unit =
     {
       count = 750,

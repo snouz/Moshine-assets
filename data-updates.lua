@@ -23,3 +23,10 @@ if data.raw["fusion-reactor"]["fusion-reactor"] then
   prevent_from_moshine(data.raw["fusion-reactor"]["fusion-reactor"])
 end
 
+if data.raw["item"]["foundation"] then
+  if data.raw["item"]["foundation"].place_as_tile then
+    if data.raw["item"]["foundation"].place_as_tile.tile_condition then
+      table.insert(data.raw["item"]["foundation"].place_as_tile.tile_condition, "moshine-lava")
+    end
+  end
+end
