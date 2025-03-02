@@ -6,4 +6,5 @@ This only contains the planet, sand and neodymium (without custom buildings etc.
 This mod can also work as standalone
 
 - Chinese translation by rlcyyg1108
+- French localisation By Fr_Dae
 - The mod includes music by Anemoia, found on Free Music Archive under license CC-BY-NC-SA
