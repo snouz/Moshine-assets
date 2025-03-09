@@ -45,36 +45,7 @@ data:extend({
     },
     pictures = get_decal_pictures("__Moshine-assets__/graphics/decorative/vulcanus-rock-decal/vulcanus-rock-decal-", "large-", 256, 5)
   },
-  {
-    name = "moshine-dune-decal",
-    type = "optimized-decorative",
-    order = "a[fulgora]-b[decorative]",
-    collision_box = {{-5, -5}, {5, 5}},
-    collision_mask = {layers={water_tile=true}, colliding_with_tiles_only=true},
-    render_layer = "decals",
-    tile_layer = 220,
-    walking_sound = sounds.pebble,
-    autoplace = {
-      order = "d[ground-surface]-h[dune]-a[relief]",
-      probability_expression = "vulcanus_dune_decal"
-    },
-    pictures = get_decal_pictures("__Moshine-assets__/graphics/decorative/vulcanus-dune-decal/vulcanus-dune-decal-", "", 512, 20)
-  },
-  {
-    name = "moshine-sand-decal",
-    type = "optimized-decorative",
-    order = "a[vulcanus]-b[decorative]-b[sand]",
-    collision_box = {{-1, -1}, {1, 1}},
-    collision_mask = {layers={water_tile=true, doodad=true}, colliding_with_tiles_only=true},
-    render_layer = "decals",
-    tile_layer = decal_tile_layer,
-    walking_sound = sounds.sand,
-    autoplace = {
-      order = "d[ground-surface]-h[dune]-b[patch]",
-      probability_expression = "vulcanus_sand_decal"
-    },
-    pictures = get_decal_pictures("__Moshine-assets__/graphics/decorative/vulcanus-sand-decal/vulcanus-sand-decal-", "", 256, 23)
-  },
+  
 
 
 
@@ -285,21 +256,6 @@ data:extend({
     },
     pictures = get_decal_pictures("__Moshine-assets__/graphics/decorative/vulcanus-crater/vulcanus-crater-", "huge-", 512, 14)
   },
-  --[[{
-    name = "moshine-pumice-relief-decal",
-    type = "optimized-decorative",
-    order = "a[vulcanus]-b[decorative]",
-    collision_box = {{-5, -5}, {5, 5}},
-    collision_mask = {layers={water_tile=true}, colliding_with_tiles_only=true},
-    render_layer = "decals",
-    tile_layer = 220,
-    walking_sound = sounds.pebble,
-    autoplace = {
-      order = "d[ground-surface]-d[relief]-b[rocky]",
-      probability_expression = "pumice_relief_decal"
-    },
-    pictures = get_decal_pictures("__Moshine-assets__/graphics/decorative/vulcanus-relief-decal/vulcanus-pumice-relief-", "", 1024, 19)
-  },]]
 
 
 
