@@ -234,7 +234,7 @@ data:extend({
           type = "item",
           name = "copper-ore",
           amount = 1,
-          probability = 4 /100,
+          probability = 8 /100,
         },
         --[[{
           type = "item",
@@ -446,8 +446,8 @@ data:extend({
     order="a-b-a",
     infinite = true,
     highlight = true,
-    minimum = 70000,
-    normal = 7000000,
+    minimum = 700000,
+    normal = 70000000,
     infinite_depletion_amount = 10,
     resource_patch_search_radius = 9,
     tree_removal_probability = 0.7,
@@ -463,7 +463,7 @@ data:extend({
           name = "steam",
           temperature = 500,
           amount_min = 10,
-          amount_max = 10,
+          amount_max = 100,
           probability = 1,
         }
       }
@@ -517,8 +517,8 @@ data:extend({
           line_length = 16,
           width = 90,
           height = 188,
-          animation_speed = 1,
-          shift = util.by_pixel(-6, -89),
+          animation_speed = 2,
+          shift = util.by_pixel(0, -89),
           scale = 0.8,
           tint = util.multiply_color({r=1, g=1, b=1}, 0.2)
         }
@@ -533,8 +533,8 @@ data:extend({
            line_length = 16,
            width = 40,
            height = 84,
-           animation_speed = 1,
-           shift = util.by_pixel(-4, -30),
+           animation_speed = 2,
+           shift = util.by_pixel(0, -30),
            scale = 0.8,
            tint = util.multiply_color({r=1, g=1, b=1}, 0.3)
         }

@@ -1,9 +1,13 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.9
-Date: 2025-03-09
+Date: 2025-03-
+  Changes:
+    - Doubled copper output
   Graphics:
     - Added diversity to sand texture
     - Optimized images size
+    - Better geyser anim
+    - Made sand icon prioritized over Maraxsis'
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.8
 Date: 2025-03-02
