@@ -129,8 +129,8 @@ data:extend({
         {
           type = "fluid",
           name = "raw-data",
-          amount_min = 10,
-          amount_max = 10,
+          amount_min = 100,
+          amount_max = 100,
           probability = 1
         }
       }
@@ -198,13 +198,13 @@ data:extend({
           type = "item",
           name = "sand",
           amount = 1,
-          probability = 13 /100,
+          probability = 28 /100,
         },
         {
           type = "item",
           name = "neodymium",
-          amount = 522,
-          probability = 0.006 /100,
+          amount = 1020,
+          probability = 0.003 /100,
         },
         {
           type = "item",
@@ -473,7 +473,7 @@ data:extend({
     {
       sound =
       {
-        category = "world-ambient", variations = sound_variations("__space-age__/sound/world/resources/sulfuric-acid-geyser", 1, 0.3),
+        category = "world-ambient", variations = sound_variations("__Moshine-assets__/sound/geyser/geyser", 1, 0.7),
         advanced_volume_control =
         {
           fades = {fade_in = {curve_type = "S-curve", from = {control = 0.3, volume_percentage = 0.0}, to = {2.0, 100.0}}}

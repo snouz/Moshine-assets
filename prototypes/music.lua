@@ -41,17 +41,6 @@ data:extend(
   },
   {
     type = "ambient-sound",
-    name = "Anemoia_5.12b",
-    track_type = "interlude",
-    planet = "moshine",
-    sound =
-    {
-      filename = musicpath .. "Anemoia_5.12b.ogg",
-      volume = vol,
-    }
-  },
-  {
-    type = "ambient-sound",
     name = "Anemoia_6.56",
     track_type = "interlude",
     planet = "moshine",
@@ -80,17 +69,6 @@ data:extend(
     sound =
     {
       filename = musicpath .. "Anemoia_2.00.ogg",
-      volume = vol,
-    }
-  },
-  {
-    type = "ambient-sound",
-    name = "Anemoia_Diorite",
-    track_type = "main-track",
-    planet = "moshine",
-    sound =
-    {
-      filename = musicpath .. "Anemoia_Diorite.ogg",
       volume = vol,
     }
   },
