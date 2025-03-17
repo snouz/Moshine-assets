@@ -544,3 +544,9 @@ data:extend({
     map_grid = false
   },
 })
+
+-- compatibility
+if mods["vtk-deep-core-mining"] then
+  data.raw["resource"]["multi-ore"].minable.results[2].amount = 512
+  data.raw["resource"]["multi-ore"].minable.results[2].probability = 0.006 /100
+end
