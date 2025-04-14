@@ -254,14 +254,12 @@ local planet_catalogue_vulcanus = require("__space-age__.prototypes.planet.proce
 local effects = require("__core__.lualib.surface-render-parameter-effects")
 local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-definitions")
 
-
-
 data:extend({
 
   {
     type = "surface-property",
-    name = "solar_flares",
-    default_value = 0,
+    name = "temperature-celcius",
+    default_value = 15,
     hidden_in_factoriopedia = true,
     hidden = true,
   },
@@ -298,7 +296,8 @@ data:extend({
       ["solar-power"] = 4000,
       pressure = 700,
       gravity = 7,
-      solar_flares = 55,
+      ["temperature-celcius"] = 98
+      --solar_flares = 55,
     },
     asteroid_spawn_influence = 1,
     asteroid_spawn_definitions = asteroid_util.spawn_definitions(asteroid_util.nauvis_vulcanus, 0.9),

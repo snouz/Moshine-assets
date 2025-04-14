@@ -4,13 +4,12 @@
   "description": "(Not the full mod) Necessary part to make Moshine work. It contains the planet, its generation, its resources, its assets, but none of the tech trees, intermediates...",
   "author": "snouz",
   "homepage": "https://github.com/snouz/Moshine-assets",
-  "version": "0.3.10",
+  "version": "0.3.11",
   "factorio_version": "2.0",
   "dependencies": [
     "base",
     "space-age",
-    "(?) maraxsis",
-    "? PlanetsLib"
+    "(?) maraxsis"
   ],
   "space_travel_required": true
 }

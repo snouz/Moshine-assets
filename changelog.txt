@@ -1,4 +1,10 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.11
+Date: 2025-0
+  Changes:
+    - Added surface condition: temperature-celcius, removed solar flares
+    - Re-authorized reactors (but they're still useless)
+---------------------------------------------------------------------------------------------------
 Version: 0.3.10
 Date: 2025-03-17
   Compatibility:
