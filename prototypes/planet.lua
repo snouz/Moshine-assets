@@ -264,6 +264,13 @@ data:extend({
     hidden = true,
   },
   {
+    type = "surface-property",
+    name = "moshine-exclusive",
+    default_value = 0,
+    hidden_in_factoriopedia = true,
+    hidden = true,
+  },
+  {
     type = "planet",
     name = "moshine",
     icon = "__Moshine-assets__/graphics/icons/moshine.png",
@@ -296,7 +303,8 @@ data:extend({
       ["solar-power"] = 4000,
       pressure = 700,
       gravity = 7,
-      ["temperature-celcius"] = 98
+      ["temperature-celcius"] = 98,
+      ["moshine-exclusive"] = 1,
       --solar_flares = 55,
     },
     asteroid_spawn_influence = 1,

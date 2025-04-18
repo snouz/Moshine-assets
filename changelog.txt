@@ -1,9 +1,15 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.12
+Date: 2025-04-18
+  Bugfixes:
+    - Quick crash fix
+---------------------------------------------------------------------------------------------------
 Version: 0.3.11
-Date: 2025-0
+Date: 2025-04-18
   Changes:
-    - Added surface condition: temperature-celcius, removed solar flares
+    - Added surface condition: temperature-celcius, moshine-exclusive, removed solar flares
     - Re-authorized reactors (but they're still useless)
+    - Made ring-teleporter compatible
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.10
 Date: 2025-03-17
