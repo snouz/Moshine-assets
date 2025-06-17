@@ -1,6 +1,10 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.16
 Date: 2025-06-17
+  Compatibility:
+    - Added missing compat code from Indzasa
+  Graphics:
+    - Slightly retextured decals, cliffs, rocks and terrain (more colorful, warm and varied, cliffs less visible)
   Locale:
     - Spanish locale by marks20125
 ---------------------------------------------------------------------------------------------------
