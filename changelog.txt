@@ -1,4 +1,28 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.16
+Date: 2025-06-17
+  Locale:
+    - Spanish locale by marks20125
+---------------------------------------------------------------------------------------------------
+Version: 0.3.15
+Date: 2025-06-17
+  Compatibility:
+    - Added ores from other BZ mods - by Indzasa
+    - Made planet 98°C / 371°K with PlanetsLib
+  Changes:
+    - Raise sand and neodymium rocket capacity
+    - Reoganized moshine tiles in GUI
+---------------------------------------------------------------------------------------------------
+Version: 0.3.14
+Date: 2025-04-24
+  Bugfixes:
+    - Fixed crash
+---------------------------------------------------------------------------------------------------
+Version: 0.3.13
+Date: 2025-04-24
+  Bugfixes:
+    - Fixed not being able to put foundation of molten-iron
+---------------------------------------------------------------------------------------------------
 Version: 0.3.12
 Date: 2025-04-18
   Bugfixes:

@@ -1,8 +1,8 @@
---[[if mods["PlanetsLib"] then
+if mods["PlanetsLib"] then
   if (data.raw["planet"]["nauvis"] and data.raw["planet"]["nauvis"].surface_properties and data.raw["planet"]["nauvis"].surface_properties.temperature) then
-    data.raw["planet"]["moshine"].surface_properties.temperature = 369
+    data.raw["planet"]["moshine"].surface_properties.temperature = 371
   end
-end]]
+end
 
 function prevent_from_moshine(entity)
   if not entity.surface_conditions then
@@ -13,9 +13,8 @@ end
 
 for _, entity in pairs(data.raw["accumulator"]) do
   if not (entity.name == "ring-teleporter") then
-    return
+    prevent_from_moshine(entity)
   end
-  prevent_from_moshine(entity)
 end
 
 --if data.raw["reactor"]["nuclear-reactor"] then
@@ -25,7 +24,6 @@ end
 --if data.raw["fusion-reactor"]["fusion-reactor"] then
 --  prevent_from_moshine(data.raw["fusion-reactor"]["fusion-reactor"])
 --end
-
 if data.raw["item"]["foundation"] then
   if data.raw["item"]["foundation"].place_as_tile then
     if data.raw["item"]["foundation"].place_as_tile.tile_condition then

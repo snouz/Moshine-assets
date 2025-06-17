@@ -36,7 +36,7 @@ data:extend({
     stack_size = 100,
     default_import_location = "moshine",
     random_tint_color = item_tints.iron_rust,
-    weight = 2*kg,
+    weight = 1*kg,
   },
   {
     type = "item",
@@ -57,6 +57,6 @@ data:extend({
     stack_size = 50,
     default_import_location = "moshine",
     random_tint_color = item_tints.iron_rust,
-    weight = 20*kg
+    weight = 4*kg
   },
 })

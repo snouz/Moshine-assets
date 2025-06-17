@@ -150,10 +150,16 @@ end
 
 data:extend({
   {
+    type = "item-subgroup",
+    name = "moshine-tiles",
+    group = "tiles",
+    order = "c"
+  },
+  {
     name = "moshine-hot-swamp",
     type = "tile",
     order = "a[oil]-b[shallow]",
-    subgroup = "fulgora-tiles",
+    subgroup = "moshine-tiles",
     collision_mask = {
       layers =
       {
@@ -245,7 +251,7 @@ data:extend({
   {
     type = "tile",
     name = "moshine-lava",
-    subgroup = "vulcanus-tiles",
+    subgroup = "moshine-tiles",
     order = "a-b",
     collision_mask = tile_collision_masks.lava(),
     autoplace = {probability_expression = "100 * fulgora_oil_mask * water_base(fulgora_coastline - 90 - fulgora_coastline_drop / 2, 2000)"},
@@ -308,7 +314,7 @@ data:extend({
     name = "moshine-dust",
     type = "tile",
     order = "b[natural]-a[dust]",
-    subgroup = "fulgora-tiles",
+    subgroup = "moshine-tiles",
     collision_mask = tile_collision_masks.ground(),
     autoplace = {
       probability_expression = "fulgora_scrap_medium + max(0, fulgora_natural, 2 * fulgora_mesa * fulgora_pyramids) * 2 - 0.9 + fulgora_rock + fulgora_road_dust * fulgora_sprawl"
@@ -344,7 +350,7 @@ data:extend({
     name = "moshine-dunes",
     type = "tile",
     order = "b[natural]-b[dunes]",
-    subgroup = "fulgora-tiles",
+    subgroup = "moshine-tiles",
     collision_mask = tile_collision_masks.ground(),
     autoplace = {
       probability_expression = "1 + fulgora_dunes"
@@ -380,7 +386,7 @@ data:extend({
     name = "moshine-sand",
     type = "tile",
     order = "b[natural]-c[sand]",
-    subgroup = "fulgora-tiles",
+    subgroup = "moshine-tiles",
     collision_mask = tile_collision_masks.ground(),
     autoplace = {
       probability_expression = "1 - fulgora_dunes"
@@ -416,7 +422,7 @@ data:extend({
     name = "moshine-rock",
     type = "tile",
     order = "b[natural]-d[rock]",
-    subgroup = "fulgora-tiles",
+    subgroup = "moshine-tiles",
     collision_mask = tile_collision_masks.ground(),
     autoplace = {
       probability_expression = "0.8 + fulgora_rock * 2 - max(0, fulgora_mix_oil) * 6"
