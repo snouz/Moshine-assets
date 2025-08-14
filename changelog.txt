@@ -1,4 +1,12 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.17
+Date: 2025-08-14
+  Locale:
+    - RU locale by Kuaikuachu
+  UI:
+    - Removed "moshine exclusive", replaced with a strict pressure value
+    - Magnetic field: 1 -> 70
+---------------------------------------------------------------------------------------------------
 Version: 0.3.16
 Date: 2025-06-17
   Compatibility:

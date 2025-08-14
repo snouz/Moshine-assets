@@ -262,14 +262,14 @@ data:extend({
     default_value = 15,
     hidden_in_factoriopedia = true,
     hidden = true,
-  },
+  },--[[
   {
     type = "surface-property",
     name = "moshine-exclusive",
     default_value = 0,
     hidden_in_factoriopedia = true,
     hidden = true,
-  },
+  },]]
   {
     type = "planet",
     name = "moshine",
@@ -299,12 +299,11 @@ data:extend({
     surface_properties =
     {
       ["day-night-cycle"] = 15 * minute,
-      ["magnetic-field"] = 1,
+      ["magnetic-field"] = 70,
       ["solar-power"] = 4000,
-      pressure = 700,
+      pressure = 701,
       gravity = 7,
       ["temperature-celcius"] = 98,
-      ["moshine-exclusive"] = 1,
       --solar_flares = 55,
     },
     asteroid_spawn_influence = 1,
