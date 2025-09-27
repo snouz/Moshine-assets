@@ -84,14 +84,15 @@ data:extend({
     expression = "max(moshine_starting_steam_geyser * 480000,\z
                       moshine_steam_geyser_spots * 7200000) * control:steam_geyser:richness"
   },
-
+--[[
   {
     type = "autoplace-control",
     name = "moshine_islands",
     order = "c-z-d",
     category = "terrain",
-    can_be_disabled = false
-  },
+    can_be_disabled = false,
+    hidden = true,
+  },]]
 }) 
 
 planet_map_gen.moshine = function()
@@ -115,7 +116,7 @@ planet_map_gen.moshine = function()
     cliff_settings =
     {
       name = "cliff-moshine",
-      control = "fulgora_cliff",
+      --control = "moshine_cliff",
       cliff_elevation_0 = 80,
       -- Ideally the first cliff would be at elevation 0 on the coastline, but that doesn't work,
       -- so instead the coastline is moved to elevation 80.
@@ -130,9 +131,9 @@ planet_map_gen.moshine = function()
     {
       --["molten_copper_geyser"] = {richness = 1500000000},
       ["steam_geyser"] = {richness = 150},
-      ["fulgoran_data_source"] = { frequency = 4, size = 0.1, richness = 150 },
-      ["moshine_islands"] = {},
-      ["fulgora_cliff"] = {},
+      --["fulgoran_data_source"] = { frequency = 4, size = 0.1, richness = 150 },
+      --["moshine_islands"] = {},
+      --["moshine_cliff"] = {},
       ["multi_ore"] = {},-- frequency = 600000000, size = 10000000, richness = 150500000 },
     },
     autoplace_settings =
@@ -256,13 +257,21 @@ local asteroid_util = require("__space-age__.prototypes.planet.asteroid-spawn-de
 
 data:extend({
 
+  --[[{
+    type = "autoplace-control",
+    name = "moshine_cliff",
+    order = "d-z-c",
+    category = "cliff",
+    hidden = true,
+  },]]
   {
     type = "surface-property",
     name = "temperature-celcius",
     default_value = 15,
     hidden_in_factoriopedia = true,
     hidden = true,
-  },--[[
+  },
+  --[[
   {
     type = "surface-property",
     name = "moshine-exclusive",

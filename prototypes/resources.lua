@@ -90,14 +90,14 @@ data:extend({
     order = "m-c",
     category = "resource"
   },
-  {
+  --[[{
     type = "autoplace-control",
     name = "fulgoran_data_source",
     localised_name = {"", "[entity=fulgoran-data-source] ", {"entity-name.fulgoran-data-source"}},
     richness = false,
     order = "m-d",
     category = "resource"
-  },
+  },]]
   {
     type = "resource-category",
     name = "raw-data"
