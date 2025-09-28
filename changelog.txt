@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.3.19
-Date: 2025-09-
+Date: 2025-09-28
   Changes:
     - Added 2 technologies to unlock the recipes that were previously unlocked by planet discovery
   Changes:
