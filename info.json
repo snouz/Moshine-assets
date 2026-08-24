@@ -1,10 +1,10 @@
 {
   "name": "Moshine-assets",
-  "title": "Moshine assets",
-  "description": "(Not the full mod) Necessary part to make Moshine work. It contains the planet, its generation, its resources, its assets, but none of the tech trees, intermediates...",
+  "title": "Moshine (assets)",
+  "description": "Necessary part to make Moshine work.",
   "author": "snouz",
   "homepage": "https://github.com/snouz/Moshine-assets",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "factorio_version": "2.1",
   "dependencies": [
     "base",
